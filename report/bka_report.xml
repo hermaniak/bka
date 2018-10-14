@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report 
+            id="action_print_bka"
+            string="Nebenkostenabrechnung"
+            model="account.bka" 
+            report_type="qweb-pdf"
+            file="bka.report_bka" 
+            name="bka.report_bka"
+            print_report_name="'Nebenkostenabrechnung - %s' % (object.name)"
+        />
+
+    </data>
+</odoo>
